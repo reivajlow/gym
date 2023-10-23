@@ -1,0 +1,2 @@
+#star app
+$ flask --debug run

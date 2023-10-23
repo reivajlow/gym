@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tabla de Diagnóstico</title>
+</head>
+<body>
+    <h1>Tabla de Diagnóstico</h1>
+    <form method="POST" action="/procesar_datos">
+        <table>
+            <tr>
+                <th>Ejercicio</th>
+                <th>Peso Máximo(kg)</th>
+                <th>Peso Máximo/2(kg)</th>
+                <th>Peso Máximo/4(kg)</th>
+                <th>Repeticiones (Peso Máximo)</th>
+                <th>Repeticiones (Peso Máximo/2)</th>
+                <th>Repeticiones (Peso Máximo/4)</th>
+            </tr>
+            <tr>
+                <td><input type="text" name="ejercicio1" value="Leg-Curl" readonly="1"></td>
+                <td><input type="number" name="peso_max_ejercicio1" min="0" max="150"></td>
+                <td><input type="number" name="peso_med_ejercicio1" min="0" max="150"></td>
+                <td><input type="number" name="peso_cu_ejercicio1" min="0" max="150"></td>
+                <td><input type="number" name="rep_max_ejercicio1" min="0" max="150"></td>
+                <td><input type="number" name="rep_med_ejercicio1" min="0" max="150"></td>
+                <td><input type="number" name="rep_cu_ejercicio1" min="0" max="150"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="ejercicio2" value="Boc-Abs" readonly="1"></td>
+                <td><input type="number" name="peso_max_ejercicio2" min="0" max="150"></td>
+                <td><input type="number" name="peso_med_ejercicio2" min="0" max="150"></td>
+                <td><input type="number" name="peso_cu_ejercicio2" min="0" max="150"></td>
+                <td><input type="number" name="rep_max_ejercicio2" min="0" max="150"></td>
+                <td><input type="number" name="rep_med_ejercicio2" min="0" max="150"></td>
+                <td><input type="number" name="rep_cu_ejercicio2" min="0" max="150"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="ejercicio3" value="Remo-cuerda" readonly="1"></td>
+                <td><input type="number" name="peso_max_ejercicio3" min="0" max="150"></td>
+                <td><input type="number" name="peso_med_ejercicio3" min="0" max="150"></td>
+                <td><input type="number" name="peso_cu_ejercicio3" min="0" max="150"></td>
+                <td><input type="number" name="rep_max_ejercicio3" min="0" max="150"></td>
+                <td><input type="number" name="rep_med_ejercicio3" min="0" max="150"></td>
+                <td><input type="number" name="rep_cu_ejercicio3" min="0" max="150"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="ejercicio4" value="shoulder-press" readonly="1"></td>
+                <td><input type="number" name="peso_max_ejercicio4" min="0" max="150"></td>
+                <td><input type="number" name="peso_med_ejercicio4" min="0" max="150"></td>
+                <td><input type="number" name="peso_cu_ejercicio4" min="0" max="150"></td>
+                <td><input type="number" name="rep_max_ejercicio4" min="0" max="150"></td>
+                <td><input type="number" name="rep_med_ejercicio4" min="0" max="150"></td>
+                <td><input type="number" name="rep_cu_ejercicio4" min="0" max="150"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="ejercicio5" value="Estocadas" readonly="1"></td>
+                <td><input type="number" name="peso_max_ejercicio5" min="0" max="150"></td>
+                <td><input type="number" name="peso_med_ejercicio5" min="0" max="150"></td>
+                <td><input type="number" name="peso_cu_ejercicio5" min="0" max="150"></td>
+                <td><input type="number" name="rep_max_ejercicio5" min="0" max="150"></td>
+                <td><input type="number" name="rep_med_ejercicio5" min="0" max="150"></td>
+                <td><input type="number" name="rep_cu_ejercicio5" min="0" max="150"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="ejercicio6" value="Seated-dip" readonly="1"></td>
+                <td><input type="number" name="peso_max_ejercicio6" min="0" max="150"></td>
+                <td><input type="number" name="peso_med_ejercicio6" min="0" max="150"></td>
+                <td><input type="number" name="peso_cu_ejercicio6" min="0" max="150"></td>
+                <td><input type="number" name="rep_max_ejercicio6" min="0" max="150"></td>
+                <td><input type="number" name="rep_med_ejercicio6" min="0" max="150"></td>
+                <td><input type="number" name="rep_cu_ejercicio6" min="0" max="150"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="ejercicio7" value="Biceps-curl" readonly="1"></td>
+                <td><input type="number" name="peso_max_ejercicio7" min="0" max="150"></td>
+                <td><input type="number" name="peso_med_ejercicio7" min="0" max="150"></td>
+                <td><input type="number" name="peso_cu_ejercicio7" min="0" max="150"></td>
+                <td><input type="number" name="rep_max_ejercicio7" min="0" max="150"></td>
+                <td><input type="number" name="rep_med_ejercicio7" min="0" max="150"></td>
+                <td><input type="number" name="rep_cu_ejercicio7" min="0" max="150"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="ejercicio8" value="lat-pulldown" readonly="1"></td>
+                <td><input type="number" name="peso_max_ejercicio8" min="0" max="150"></td>
+                <td><input type="number" name="peso_med_ejercicio8" min="0" max="150"></td>
+                <td><input type="number" name="peso_cu_ejercicio8" min="0" max="150"></td>
+                <td><input type="number" name="rep_max_ejercicio8" min="0" max="150"></td>
+                <td><input type="number" name="rep_med_ejercicio8" min="0" max="150"></td>
+                <td><input type="number" name="rep_cu_ejercicio8" min="0" max="150"></td>
+            </tr>
+            <!-- Puedes continuar agregando más filas de ejercicios aquí si es necesario -->
+        </table>
+        <br>
+        <input type="submit" value="Guardar y Procesar Datos">
+    </form>
+</body>
+</html>
